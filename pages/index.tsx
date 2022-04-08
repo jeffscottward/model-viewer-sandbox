@@ -7,6 +7,12 @@ import { ModelViewerElement } from "@google/model-viewer/lib/model-viewer";
 // Ideal import statement
 // import ModelViewer from "@google/model-viewer";
 
+declare namespace JSX {
+  interface IntrinsicElements {
+    "model-viewer": ModelViewerElement;
+  }
+}
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
