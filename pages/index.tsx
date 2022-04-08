@@ -16,7 +16,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <ModelViewerElement
+        Hello
+        <model-viewer
           poster={"astronaut/poster" + ".png"}
           src={"astronaut/model" + ".gltf"}
           alt={"model-viewer"}
